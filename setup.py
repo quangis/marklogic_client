@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/HanKruiger/marklogic_client",
     packages=setuptools.find_packages(),
     install_requires=[
-        "requests > 2.22.0"
+        "requests >= 2.22.0"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
