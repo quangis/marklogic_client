@@ -29,8 +29,9 @@ This will make a file, `.env`, where you'll have to fill in the credentials of t
 
 3. Run the tests:
 ```bash
-python setup.py pytest
+python setup.py pytest  # Or `python3 setup.py pytest` if `python` is version 2.
 ```
+
 
 If all went well, you should see something along the lines of this:
 ```
