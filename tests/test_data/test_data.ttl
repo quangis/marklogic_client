@@ -1,0 +1,7 @@
+@prefix i: <http://example.org/item> .
+@prefix dt: <http://example.org/details#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+  i:item22 dt:shipped "2013-05-14"^^xsd:date .
+  i:item22 dt:quantity 100 .
+  i:item22 dt:invoiced true .
+  i:item22 dt:costPerItem 10.50 .

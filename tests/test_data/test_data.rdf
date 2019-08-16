@@ -1,0 +1,14 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:d="http://example.org/data/"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="http://example.org/data#item22">
+    <d:shipped rdf:datatype="http://www.w3.org/2001/XMLSchema#date">
+      2013-05-14</d:shipped>
+    <d:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">
+      27</d:quantity>
+    <d:invoiced rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">
+      true</d:invoiced>
+    <d:costPerItem rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">
+      10.50</d:costPerItem>
+  </rdf:Description>
+</rdf:RDF>

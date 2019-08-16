@@ -1,14 +1,20 @@
 # MarkLogic client
+*MarkLogic is a trademark of MarkLogic Corporation. We are not affiliated with MarkLogic Corporation.*
 
 TODO: Write readme.
 
-## How to build a release
+## How to use this in another Python project
 
-1. Increment the version number adequately.
-2. Build the new release:
+Install using `pip`:
 ```bash
-python setup.py sdist
+pip install git+https://github.com/HanKruiger/marklogic_client.git@master
 ```
-3. Upload the release to GitHub.
 
-*MarkLogic is a trademark of MarkLogic Corporation. We are not affiliated with MarkLogic Corporation.*
+(TODO: Build releases and distribute them archived and versioned. This is much faster than using `git`.)
+
+
+## How to run the tests
+
+```bash
+python setup.py pytest
+```
