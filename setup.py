@@ -7,11 +7,10 @@ setuptools.setup(
     name="marklogic_client",
     version="0.0.1",
     author="Han Kruiger",
-    author_email="hankruiger@gmail.com",
     description="A class for talking with MarkLogic Server",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/HanKruiger/marklogic_client",
+    url="https://github.com/quangis/marklogic_client",
     packages=setuptools.find_packages(),
     install_requires=[
         "requests >= 2.22.0"
