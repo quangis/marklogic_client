@@ -7,7 +7,7 @@ TODO: Write readme.
 
 Install using `pip`:
 ```bash
-pip install git+https://github.com/HanKruiger/marklogic_client.git@master
+pip install git+https://github.com/quangis/marklogic_client.git@master
 ```
 
 (TODO: Build releases and distribute them archived and versioned. This is much faster than using `git`.)
