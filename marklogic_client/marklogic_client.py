@@ -93,6 +93,19 @@ class MarkLogicClient:
                 'graph': graph_uri
             }
         )
+    
+    def sparql_retrieve(self, queryStr):
+        """Send SPARQL retrieval query."""
+        return self.session.get(
+            f'{self.url}/{self.api_version}/graphs/sparql',
+            headers={
+                'Content-type': 'application/sparql-query',
+                'Accept': 'application/sparql-results+json'
+            },
+            params={
+                'query': queryStr
+            }
+        )
 
 
 def start_session(username, password):
